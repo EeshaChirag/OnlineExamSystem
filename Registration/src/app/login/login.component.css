@@ -1,0 +1,51 @@
+.container {
+    padding: 100px;
+    background-color: white;
+}
+
+.login{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+input[type=text], input[type=password], textarea {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: lightblue;
+        outline: none;
+    }
+
+div {
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button {   
+    background-color: #4CAF50;   
+    width: 97.5%;  
+     color: whitesmoke;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
